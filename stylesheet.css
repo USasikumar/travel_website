@@ -1,0 +1,446 @@
+.parallax-effect-hills {
+    /* this url image is from my personal gallary */
+    background-image: url('images/beautiful.jpg'); 
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html, main {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.user-count, .des-count, .ser-count, .acc-count {
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000a6;
+}
+
+li {
+    float: right;
+    padding-left: 34px;
+    font-weight: bold;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+}
+
+.login {
+    background-color: #5d5838;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid #231d21;
+    color: #a0d18c;
+    width: 353px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ffffffc2;
+}
+
+.search_button {
+    background-color: #282226;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.search_button_div {
+    margin-left: 40px;
+}
+
+.destination {
+    padding-right: 58px;
+}
+
+.mid-content, .footer {
+    height: 50%;
+}
+
+.foot-content {
+    line-height: 35px;
+}
+
+.foot-content span {
+    display: block;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #202020;
+    color: white;
+}
+
+.mid-content {
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: #000000de;
+    width: 100%;
+}
+
+
+.parallax-effect-bonfire {
+    /* this url image is from my personal gallary */
+    background-image: url('images/bonfire.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #d1d1d1;
+}
+
+.card1, .card2, .card3, .card4 {
+    margin-top: 66px;
+    width: 23%;
+    height: 316px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 13px;
+}
+
+.card1 {
+    /* this url image is from my personal gallary */
+    background-image: url(images/air_hand.jpg);
+}
+
+.card2 {
+    /* this url image is from my personal gallary */
+    background-image: url(images/mountain.jpg);
+}
+
+.card3 {
+    /* this url image is from my personal gallary */
+    background-image: url(images/ship_beach.jpg);
+}
+
+.card4 {
+    /* this url image is from my personal gallary */
+    background-image: url(images/trek.jpg);
+}
+
+.inner-card {
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000000a6;
+    box-sizing: border-box;
+    padding: 14px;
+    border-radius: 13px;
+}
+
+.card-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    color: #e5e7e9;
+    margin: 0 0 20px 0;
+}
+
+.phrase {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 9%;
+    padding-bottom: 5%;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+main {
+    display: initial;
+}
+
+.main-catch-phrase {
+    text-shadow: 1px 1px 2px #141414, 0 0 1em #0e0e0e, 0 0 0.2em #0a0a0a;
+}
+
+.catch-phrase {
+    font-size: 26px;
+    text-shadow: 1px 1px 2px #141414, 0 0 1em #0e0e0e, 0 0 0.2em #0a0a0a;
+}
+
+.user-input, .stats {
+    display: inline-flex;
+}
+
+.stats {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.stat_count {
+    margin: 0;
+    font-size: 29px;
+}
+
+.testimonials_container {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-count::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter 0.9s steps(10) forwards 250ms;
+    counter-reset: count 0;
+    font-size: 71px;
+}
+
+.testimonals {
+    display: flex;
+    background: #000000a6;
+    padding: 30px;
+    border-radius: 13px;
+    width: 20%;
+    text-align: justify;
+}
+
+.testimonial_content {
+    color: white;
+}
+
+.testimonals_heading {
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 73px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #141414, 0 0 1em #0e0e0e, 0 0 0.2em #0a0a0a;
+}
+
+@keyframes counter {
+    0% {
+        counter-increment: count 256;
+    }
+
+    10% {
+        counter-increment: count 500;
+    }
+
+    20% {
+        counter-increment: count 1000;
+    }
+
+    25% {
+        counter-increment: count 1450;
+    }
+
+    30% {
+        counter-increment: count 3000;
+    }
+
+    40% {
+        counter-increment: count 4569;
+    }
+
+    45% {
+        counter-increment: count 5000;
+    }
+
+    50% {
+        counter-increment: count 5890;
+    }
+
+    55% {
+        counter-increment: count 7890;
+    }
+
+    75% {
+        counter-increment: count 10098;
+    }
+
+    85% {
+        counter-increment: count 13688;
+    }
+
+    95% {
+        counter-increment: count 14890;
+    }
+
+    100% {
+        counter-increment: count 14998;
+    }
+
+}
+
+.des-count::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: descounter 0.9s steps(10) forwards 250ms;
+    counter-reset: count 0;
+    font-size: 71px;
+}
+
+@keyframes descounter {
+    0% {
+        counter-increment: count 497;
+    }
+
+    10% {
+        counter-increment: count 500;
+    }
+
+    50% {
+        counter-increment: count 1000;
+    }
+
+    70% {
+        counter-increment: count 1450;
+    }
+
+    90% {
+        counter-increment: count 3000;
+    }
+
+    100% {
+        counter-increment: count 4569;
+    }
+
+}
+
+.ser-count::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: sercounter 0.9s steps(10) forwards 250ms;
+    counter-reset: count 0;
+    font-size: 71px;
+}
+
+@keyframes sercounter {
+    0% {
+        counter-increment: count 12;
+    }
+
+    10% {
+        counter-increment: count 10;
+    }
+
+    50% {
+        counter-increment: count 36;
+    }
+
+    70% {
+        counter-increment: count 45;
+    }
+
+    90% {
+        counter-increment: count 53;
+    }
+
+    100% {
+        counter-increment: count 62;
+    }
+
+}
+
+.acc-count::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: acccounter 0.9s steps(10) forwards 250ms;
+    counter-reset: count 0;
+    font-size: 71px;
+}
+
+@keyframes acccounter {
+    0% {
+        counter-increment: count 244;
+    }
+
+    10% {
+        counter-increment: count 362;
+    }
+
+    50% {
+        counter-increment: count 400;
+    }
+
+    70% {
+        counter-increment: count 900;
+    }
+
+    90% {
+        counter-increment: count 3000;
+    }
+
+    100% {
+        counter-increment: count 5989;
+    }
+
+}
